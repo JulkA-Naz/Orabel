@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Orabel</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230311165029">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="120" data-scroll-show class="header">
+			<div class="header__container">
+				<div class="header__logo"><img src="img/logo.png" alt="Logo"></div>
+
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" data-goto=".about" class="menu__link">About</a></li>
+							<li class="menu__item"><a href="#" data-goto=".portfolio" class="menu__link">portfolio</a></li>
+							<li class="menu__item"><a href="#" data-goto=".blog" class="menu__link">Blog</a></li>
+							<li class="menu__item"><a href="#" data-goto=".contact" class="menu__link">Contacts</a></li>
+						</ul>
+					</nav>
+					<div class="header__decor"></div>
+					<button type="button" class="menu__icon icon-menu"></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="hero">
+				<div class="hero__container">
+					<div class="hero__descr _anim-items _anim-no-hide"><span>Professional photographer</span>
+						<h1 class="hero__title">Anastasia
+							Chazova
+						</h1>
+					</div>
+					<div class="hero__main-image">
+						<picture>
+							<source media="(min-width:769px)" srcset="img/Hero-image.jpg">
+							<source media="(min-width: 480px)" srcset="img/hero-image_tablet.jpg">
+							<source media="(max-width: 479px)" srcset="img/hero-image_mobile.jpg">
+							<img src="img/Hero-image.jpg" alt="hero">
+						</picture>
+					</div>
+					<div class="hero__btn"><a data-goto=".portfolio" href=""><img src="img/icones/Arrow.svg" alt="Arrow">
+							SHOW
+							PORTFOLIO</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="about">
+				<div class="about__container">
+					<div class="about__descr">
+						<div class="about__text _anim-items _anim-no-hide"> As long as I can remember, I always loved to take
+							pictures.
+							Often watched
+							fashion
+							magazines. This is probably why I like taking pictures of models :&#41;</div>
+						<a class="about__inst"><img src="img/icones/Instagram.svg" alt="Instagram">Instagram</a>
+					</div>
+					<div class="about__photos">
+						<div class="about__photo_1"><img src="img/about-1.jpg" alt="photo_1"><span class="about__feature _anim-items _anim-no-hide">Fashion photo of live characters, this is what
+								I do better than others</span></div>
+						<div class="about__photo_2"><img src="img/about-2.jpg" alt="photo_2"></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="portfolio">
+				<div class="portfolio__container">
+					<div class="portfolio__left-columm _anim-items _anim-no-hide">
+						<h2 class="portfolio__title">Monica
+							Fetruchi<span>FASHION MODEL</span></h2>
+						<div class="portfolio__thumb"><span>Apollo Nova</span><img src="img/appolo.jpg" alt=""></div>
+					</div>
+					<div class="portfolio__right-column"> <img src="img/Monica.jpg" alt="Monica"></div>
+					<a data-goto=".blog" href="" class="portfolio__btn btn">Next Works <span></span><img src="img/icones/Arrow.svg" alt="Arrow"></a>
+				</div>
+			</section>
+
+			<section class="blog">
+				<div class="blog__container">
+					<div class="blog__photo"><img src="img/blog.jpg" alt="blog"></div>
+					<div class="blog__text  _anim-items _anim-no-hide">
+						<h3 class="blog__title">Creator
+							Posts</h3>
+						<div class="blog__articles">
+							<div class="blog__article"> <span class="blog__subtitle">12 FEBRUARY 2020</span> <a href="">How to
+									find inspiration and
+									not lose yourself</a> </div>
+							<div class="blog__article"><span class="blog__subtitle">08 FEBRUARY 2020</span><a href="">How I
+									choose
+									models for my photos and looks</a></div>
+						</div>
+					</div>
+					<a href="#" class="blog__btn btn">More Posts<img src="img/icones/Arrow-white.svg" alt="Arrow"></a>
+				</div>
+			</section>
+			<section class="contact">
+				<div class="contact__container">
+					<div class="contact__message _anim-items _anim-no-hide"><span></span>Write to me, I am open for
+						cooperation</div>
+					<div class="contact__text">
+						<form class="contact__form" method="post" action="#">
+							<div class="contact__inputs"><label for="name">your<input type="text" placeholder="name" id="name"></label>
+								<label for="email">enter<input type="text" placeholder="E-mail" id="email"></label>
+							</div>
+							<label for="message">Write<textarea required placeholder="Message" id="message"></textarea></label>
+							<button type="submit" class="contact__btn btn">Send MESSAGE <img src="img/icones/Arrow-white.svg" alt="Arrow"></button>
+						</form>
+					</div>
+					<div class="contact__photo">
+						<img src="img/contact.jpg" alt="">
+						<a href="#" class="contact__inst-btn">Join to mY <img src="img/icones/Instagram.svg" alt="Instagram">Instagram</a>
+					</div>
+				</div>
+			</section>
+
+		</main>
+	</div>
+	<script src="js/app.min.js?_v=20230311165029"></script>
+</body>
+
+</html>
